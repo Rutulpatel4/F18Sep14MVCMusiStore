@@ -10,6 +10,7 @@ using MvcMusicStore.Models;
 
 namespace MvcMusicStore.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class AlbumsController : Controller
     {
         private MusicStoreModel db = new MusicStoreModel();
@@ -22,6 +23,7 @@ namespace MvcMusicStore.Controllers
         }
 
         // GET: Albums/Details/5
+        [OverrideAuthorization]
         public ActionResult Details(int? id)
         {
             if (id == null)
