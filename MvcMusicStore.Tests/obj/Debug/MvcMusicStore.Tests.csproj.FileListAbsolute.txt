@@ -51,3 +51,7 @@ C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\obj\Debug\MvcMusic
 C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\obj\Debug\MvcMusicStore.Tests.csproj.CopyComplete
 C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\obj\Debug\MvcMusicStore.Tests.dll
 C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\obj\Debug\MvcMusicStore.Tests.pdb
+C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rutul\source\repos\MvcMusicStore\MvcMusicStore.Tests\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.xml

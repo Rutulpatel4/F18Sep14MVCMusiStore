@@ -46,9 +46,9 @@ namespace MvcMusicStore
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "ba1d1511-c545-4594-b2f5-071c3b144ef7",
+                clientSecret: "rsdnluYDB24~?kGKVS423(]");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
@@ -58,11 +58,11 @@ namespace MvcMusicStore
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "454549817918-qtnjr6r2dk96elcvmpp2avstqbj8jl37.apps.googleusercontent.com",
+                ClientSecret = " e7R4-VVJjFadeO0ToU-3uIEP "
+            });
         }
     }
 }

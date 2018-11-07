@@ -18,7 +18,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44338</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -298,6 +298,7 @@
     <Content Include="Views\Albums\Delete.cshtml" />
     <Content Include="Views\Albums\Details.cshtml" />
     <Content Include="Views\Albums\Edit.cshtml" />
+    <Content Include="Views\Store\Albums.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -331,7 +332,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>59429</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59429/</IISUrl>
+          <IISUrl>https://localhost:44338/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
